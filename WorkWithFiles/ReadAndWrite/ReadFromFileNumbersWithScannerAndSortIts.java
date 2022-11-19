@@ -30,7 +30,7 @@ import java.util.stream.Collectors;
 10
 */
 
-public class Solution {
+public class ReadFromFileNumbersWithScannerAndSortIts {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String fileName = reader.readLine();
