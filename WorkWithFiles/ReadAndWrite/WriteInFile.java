@@ -3,7 +3,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Date;
 
-public class Main {
+public class WriteInFile {
     public static void main(String[] args) {
         String outputFileName = "file.txt";
         String[] array = {"one", "two", "three", "four"};
