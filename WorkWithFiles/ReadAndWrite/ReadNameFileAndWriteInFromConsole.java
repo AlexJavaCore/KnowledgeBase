@@ -15,7 +15,7 @@ import java.util.Scanner;
 Записать абсолютно все введенные в п.2 строки в файл: каждую строчку — с новой строки.
 */
 
-public class Solution {
+public class ReadNameFileAndWriteInFromConsole {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String fileName = reader.readLine();
