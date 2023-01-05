@@ -11,7 +11,7 @@ import java.io.*;
 Закрыть потоки.
 */
 
-public class Solution {
+public class WriteHalfFileInTwoOtherFiles {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String inputFile = reader.readLine();
