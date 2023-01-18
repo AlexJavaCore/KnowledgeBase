@@ -15,7 +15,7 @@ public class Solution {
 
         System.out.println("Total memory after    " + runtime.totalMemory());
         System.out.println("Free memory before    " + runtime.freeMemory());
-        System.gc();
+        System.gc(); // not garanty that work
         System.out.println("Total memory after gc " + runtime.totalMemory());
         System.out.println("Free memory after gc  " + runtime.freeMemory());
 
