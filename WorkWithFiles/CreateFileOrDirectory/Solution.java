@@ -15,6 +15,7 @@ public class Solution {
         if(file.isDirectory()){
             System.out.println("dir");
         }
+        
         if(file.isFile()){
             System.out.println("file");
         }
