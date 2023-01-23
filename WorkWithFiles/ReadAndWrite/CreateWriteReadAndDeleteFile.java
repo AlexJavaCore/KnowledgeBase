@@ -2,7 +2,7 @@ package com.company;
 
 import java.io.*;
 
-public class Solution {
+public class CreateWriteReadAndDeleteFile {
     public static void main(String[] args) throws Exception {
         File file = new File("temp.txt");
         if(!file.exists())
