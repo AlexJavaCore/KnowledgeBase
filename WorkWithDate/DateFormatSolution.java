@@ -5,7 +5,7 @@ import java.text.DateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Solution {
+public class DateFormatSolution {
     public static void main(String[] args) throws Exception {
         Date date = new Date();
         System.out.println(date);
